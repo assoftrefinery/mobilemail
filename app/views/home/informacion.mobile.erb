@@ -1,0 +1,88 @@
+<% if false %>
+
+    Si no ponemos el title, no sale la barra
+
+<% end %>
+
+<% title "Informacion" %>
+
+<ul align="center">
+
+    <table align="center">
+    <tr>
+        <td>
+            <p>Titulo</p>
+        </td>
+        <td>
+            <p>Dato</p>
+        </td>
+    </tr>
+
+
+    <tr>
+
+        <td>
+            <p>IP</p>
+        </td>
+        <td>
+            <p> <%= @ip %>    </p>
+         </td>
+    </tr>
+    <tr>
+        <td>
+          <p>Metodo</p>
+        </td>
+        <td>
+          <p> <%= @metodo %>    </p>
+        </td>
+    </tr>
+
+      <tr>
+      <td>
+        <p>Referente</p>
+      </td>
+      <td>
+        <p> <%= @referente %>    </p>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        <p>Agente</p>
+      </td>
+      <td>
+        <p> <%= @agente %>    </p>
+      </td>
+
+       <tr>
+      <td>
+        <p>Direccion servidor</p>
+      </td>
+      <td>
+        <p> <%= @http_host %>    </p>
+      </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Nombre del servidor</p>
+        </td>
+        <td>
+          <p> <%= @nombre_host %>    </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p>IP remota</p>
+        </td>
+        <td>
+          <p> <%= @ip_remota %>    </p>
+        </td>
+      </tr>
+
+
+
+    </table>
+
+</ul>

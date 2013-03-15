@@ -1,0 +1,2 @@
+/* Inicializar jQTouch */
+$.jQTouch({});

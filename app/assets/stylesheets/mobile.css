@@ -1,0 +1,15 @@
+/* CSS para la version mobil del sitio */
+
+body {
+    background-color: #FFF;
+}
+
+#container {
+    width: 90%;
+    min-width: none;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+}

@@ -1,0 +1,7 @@
+== mobileMail
+
+Esta es una web-app de prueba de UI de smartphone y envio de mail
+
+Fran Luque, 2013
+
+
